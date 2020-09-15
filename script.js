@@ -19,7 +19,7 @@ function App() {
 
     texture = new Texture(gl);
     const images = [
-    { texture: texture, src: 'https://klevron.github.io/codepen/misc/myrtilles.jpg' }];
+    { texture: texture, src: 'https://i.ytimg.com/vi/SVEWkKt60qE/maxresdefault.jpg' }];
 
 
     Promise.all(images.map(loadImage)).then(responses => {
